@@ -1,7 +1,9 @@
 name: terminal
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - notebook==5.7.11
-  - python
+  - python=3.9
+  - notebook 
   - nano
+  - pip
